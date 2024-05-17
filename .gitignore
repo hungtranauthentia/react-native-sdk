@@ -162,3 +162,6 @@ coverage
 # testing
 /coverage
 TestApp/.env
+
+# ts build
+dist
