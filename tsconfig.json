@@ -7,11 +7,13 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
-    "importsNotUsedAsValues": "error",
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "lib": ["esnext"],
     "module": "esnext",
+    "rootDir": "./",
+    "outDir": "dist",
+    "declaration": true,
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
@@ -24,7 +26,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "include": ["./js"],
-  "exclude": ["./SampleApp", "./TestApp"],
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "exclude": ["./SampleApp", "./TestApp", "dist"],
 }
