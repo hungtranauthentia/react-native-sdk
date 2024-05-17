@@ -83,6 +83,7 @@
     "metro-react-native-babel-preset": "^0.77.0",
     "react": "18.2.0",
     "react-native": "0.72.10",
+    "tsc": "^2.0.4",
     "typescript": "^4.6.4"
   },
   "dependencies": {
