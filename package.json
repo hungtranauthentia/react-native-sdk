@@ -6,6 +6,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "lint": "echo \"Skipping SDK linting...\"",
     "test": "echo \"RN SDK testing...\"; jest --coverage",
     "updateGradleMultiDex": "node scripts/android_enable_multi_dex.js",
