@@ -26,5 +26,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": ["./SampleApp", "./TestApp", "dist"],
+  "exclude": ["./SampleApp", "./TestApp", "dist", "./js/__tests__"]
 }

@@ -75,6 +75,7 @@
     "@babel/preset-env": "^7.20.0",
     "@react-native-community/cli-platform-android": "^6.3.0",
     "@react-native/metro-config": "^0.73.0",
+    "@types/jest": "^29.5.12",
     "@types/react-native": "^0.72.1",
     "babel-jest": "^29.2.1",
     "babel-preset-react-native": "^5.0.0",
